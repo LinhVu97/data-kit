@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DataStorageKit",
+        "repositoryURL": "https://gitlab.volio.vn/fidra/libs/data-storage-kit.git",
+        "state": {
+          "branch": null,
+          "revision": "738e912c0d39c93d6c7350553dae3cc0700d2964",
+          "version": "1.0.4"
+        }
+      },
+      {
+        "package": "RealmDatabase",
+        "repositoryURL": "https://github.com/realm/realm-core.git",
+        "state": {
+          "branch": null,
+          "revision": "b4192c46305570577c4d08df790fddec5ab3aa04",
+          "version": "20.1.5"
+        }
+      },
+      {
+        "package": "Realm",
+        "repositoryURL": "https://github.com/realm/realm-swift.git",
+        "state": {
+          "branch": null,
+          "revision": "ca03df491ec5e4bb8af0bca1e9957d08c10ec2da",
+          "version": "20.0.5"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

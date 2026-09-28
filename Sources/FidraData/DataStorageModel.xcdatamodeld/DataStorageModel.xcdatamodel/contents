@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19575" systemVersion="23F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CategoryEntity" representedClassName="CategoryEntity" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="customFields" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="isNew" optional="NO" attributeType="Boolean" usesScalarValueType="YES" defaultValueString="NO"/>
+        <attribute name="isPro" optional="NO" attributeType="Boolean" usesScalarValueType="YES" defaultValueString="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="oldId" optional="NO" attributeType="Integer 32" usesScalarValueType="YES" defaultValueString="0"/>
+        <attribute name="parentId" optional="YES" attributeType="String"/>
+        <attribute name="photo" optional="YES" attributeType="String"/>
+        <attribute name="priority" optional="NO" attributeType="Integer 32" usesScalarValueType="YES" defaultValueString="0"/>
+        <attribute name="status" optional="NO" attributeType="Boolean" usesScalarValueType="YES" defaultValueString="NO"/>
+        <attribute name="thumbnail" optional="YES" attributeType="String"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="ItemEntity" representedClassName="ItemEntity" syncable="YES">
+        <attribute name="categoryId" optional="YES" attributeType="String"/>
+        <attribute name="children" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="customFields" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="isNew" optional="NO" attributeType="Boolean" usesScalarValueType="YES" defaultValueString="NO"/>
+        <attribute name="isPro" optional="NO" attributeType="Boolean" usesScalarValueType="YES" defaultValueString="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="oldId" optional="NO" attributeType="Integer 32" usesScalarValueType="YES" defaultValueString="0"/>
+        <attribute name="photo" optional="YES" attributeType="String"/>
+        <attribute name="priority" optional="NO" attributeType="Integer 32" usesScalarValueType="YES" defaultValueString="0"/>
+        <attribute name="status" optional="NO" attributeType="Boolean" usesScalarValueType="YES" defaultValueString="NO"/>
+        <attribute name="thumbnail" optional="YES" attributeType="String"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="CategoryEntity" positionX="-81" positionY="0" width="128" height="210"/>
+        <element name="ItemEntity" positionX="123" positionY="0" width="128" height="240"/>
+    </elements>
+</model>
+
